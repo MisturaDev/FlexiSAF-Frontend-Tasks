@@ -29,18 +29,24 @@ Each task is organized in its own folder and showcases specific learning outcome
 ---
 
 ## How to Clone the Repository
-To get a copy of this project on your local machine, run the following commands in your terminal:
-git clone https://github.com/MisturaDev/FlexiSAF-Frontend-Tasks.git
-cd FlexiSAF-Frontend-Tasks
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MisturaDev/FlexiSAF-Frontend-Tasks.git
 
+2. Navigate into the project folder:
+    ```bash
+    cd FlexiSAF-Frontend-Tasks
+
+---
 
 ## Live Preview
 
-The landing page provides access to all completed tasks:
-https://misturadev.github.io/FlexiSAF-Frontend-Tasks/
+Click on each task to view it live:
 
-- Task 1: https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task1/index.html
+- [The landing page](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/)
+
+- [Task 1](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task1/index.html)
 
 
 ---
