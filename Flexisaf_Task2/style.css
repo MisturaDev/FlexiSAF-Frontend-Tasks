@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+/* ===== Card Sections (Boxes) ===== */
+.card {
+    background-color: #fff;
+    border: 2px solid #333; /* visible border for all cards */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* ===== CSS Properties Demo ===== */
+.properties-demo {
+    background-color: #fff3e0;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #fb8c00;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* ===== Box Model Demo ===== */
+.box-model-demo {
+    background-color: #c8e6c9; /* light green to see the box */
+    padding: 20px;             /* space inside */
+    margin: 20px 0;            /* space outside */
+    border: 3px solid #388e3c; /* visible border */
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* ===== Text Demo Box ===== */
+.text-demo {
+    border: 2px dashed #1a73e8;  /* visible border like other cards */
+    background-color: #e3f2fd;    /* light blue background */
+    padding: 15px;                /* inner spacing */
+    margin: 10px 0;               /* space above and below */
+    border-radius: 5px;           /* rounded corners like other boxes */
+}
+
+.text-demo h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.text-demo p {
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+}
+
+/* ===== Unit Demo Box ===== */
+.unit-demo {
+    background-color: #fff8e1; /* light yellow for visibility */
+    border: 2px solid #fbc02d;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.unit-demo p {
+    margin: 5px 0;
+}
+
+/* ===== Images ===== */
+img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* ===== Flexbox Layout ===== */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background-color: #e0f7fa;
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* ===== Grid Layout ===== */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.grid-item {
+    background-color: #ffe0b2;
+    border: 1px solid #333;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* ===== Responsiveness ===== */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .flex-item, .grid-item {
+        font-size: 0.9rem;
+    }
+}
