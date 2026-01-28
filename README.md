@@ -48,6 +48,8 @@ Click on each task to view it live:
 
 - [Task 1](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task1/index.html)
 
+- [Task 2](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task2/index.html)
+
 
 ---
 
