@@ -1,0 +1,17 @@
+// Flexbox centering
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Button style
+@mixin button-style($bg-color) {
+  background-color: $bg-color;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}

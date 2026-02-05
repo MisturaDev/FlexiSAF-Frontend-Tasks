@@ -1,0 +1,29 @@
+// Reset & universal styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Body styles
+body {
+  font-family: $font-family;
+  color: $text-color;
+  line-height: 1.6;
+  background-color: $secondary-color;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+}
+
+// Links
+a {
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
