@@ -26,6 +26,9 @@ Each task is organized in its own folder and showcases specific learning outcome
 
 - JavaScript (ES6+)
 
+- Sass/SCSS
+
+
 ---
 
 ## How to Clone the Repository
