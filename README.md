@@ -28,6 +28,8 @@ Each task is organized in its own folder and showcases specific learning outcome
 
 - Sass/SCSS
 
+- Node.js, npm, chalk
+
 
 ---
 
