@@ -28,6 +28,8 @@ Each task is organized in its own folder and showcases specific learning outcome
 
 - Sass/SCSS
 
+- Node.js, npm, chalk
+
 
 ---
 
@@ -54,6 +56,8 @@ Click on each task to view it live:
 - [Task 2](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task2/index.html)
 
 - [Task 3](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task3/index.html)
+
+- [Task 4](https://github.com/MisturaDev/Frontend-version-control-task-Mistura.git)
 
 - [Task 5](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task5/index.html) 
 
