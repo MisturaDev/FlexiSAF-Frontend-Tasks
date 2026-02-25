@@ -1,6 +1,6 @@
 # FlexiSAF Frontend Tasks
 
-This repository contains a collection of frontend development tasks focused on practicing and demonstrating core web development concepts using **HTML**, **CSS** and **JavaScript**.
+This repository contains a collection of frontend development tasks focused on practicing and demonstrating core web development concepts using **HTML**, **CSS**, **JavaScript** and **React**.
 
 Each task is organized in its own folder and showcases specific learning outcomes, with live previews available via GitHub Pages for easy visualization.
 
@@ -29,6 +29,8 @@ Each task is organized in its own folder and showcases specific learning outcome
 - Sass/SCSS
 
 - Node.js, npm, chalk
+
+- React
 
 
 ---
