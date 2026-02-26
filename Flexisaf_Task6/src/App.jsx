@@ -83,7 +83,6 @@ function App() {
         )}
       </main>
 
-      {/* Footer */}
       <footer style={footer}>
         Built with React + Vite • Task 6 Submission
       </footer>
