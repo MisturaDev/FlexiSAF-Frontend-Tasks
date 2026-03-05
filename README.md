@@ -1,20 +1,10 @@
 # FlexiSAF Frontend Tasks
 
-This repository contains a collection of frontend development tasks focused on practicing and demonstrating core web development concepts using **HTML**, **CSS**, **JavaScript** and **React**.
+This repository contains a structured collection of frontend development tasks completed during FlexiSAF Program.
 
-Each task is organized in its own folder and showcases specific learning outcomes, with live previews available via GitHub Pages for easy visualization.
+Each task is organized in its own folder and represents a specific learning milestone.
 
----
-
-## What this repository includes
-
-- Structured task-based folders
-
-- Hands-on practice with frontend fundamentals
-
-- Progressive improvements across tasks
-
-- Deployed links for each task where applicable
+Live previews are available via GitHub Pages and Vercel where applicable, allowing easy access to working implementations.
 
 ---
 
@@ -28,10 +18,9 @@ Each task is organized in its own folder and showcases specific learning outcome
 
 - Sass/SCSS
 
-- Node.js, npm, chalk
+- Node.js and npm
 
-- React
-
+- React Fundamentals (components, props, state, event handling)
 
 ---
 
@@ -61,7 +50,9 @@ Click on each task to view it live:
 
 - [Task 4](https://github.com/MisturaDev/Frontend-version-control-task-Mistura.git)
 
-- [Task 5](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task5/index.html) 
+- [Task 5](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task5/index.html)
+
+- [Task 6](https://flexi-saf-frontend-tasks.vercel.app/)
 
 
 ---
