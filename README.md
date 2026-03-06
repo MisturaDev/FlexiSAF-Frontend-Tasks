@@ -22,6 +22,8 @@ Live previews are available via GitHub Pages and Vercel where applicable, allowi
 
 - React Fundamentals (components, props, state, event handling)
 
+- Styled Components
+
 ---
 
 ## How to Clone the Repository
@@ -53,6 +55,8 @@ Click on each task to view it live:
 - [Task 5](https://misturadev.github.io/FlexiSAF-Frontend-Tasks/Flexisaf_Task5/index.html)
 
 - [Task 6](https://flexi-saf-frontend-tasks.vercel.app/)
+
+- [Task 7](https://styled-components-flexisaf.vercel.app/)
 
 
 ---
