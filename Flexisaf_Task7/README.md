@@ -1,4 +1,4 @@
-# FlexiSAF Frontend Task 7 – Styled Components in React
+# Task 7 – Styled Components in React
 
 ## Overview
 This project demonstrates how to use **Styled Components** in a React application.
