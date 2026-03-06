@@ -14,6 +14,22 @@ This task demonstrates foundational understanding of React concepts by building 
 
 ## How to Run
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MisturaDev/Flexisaf_Frontend.git
+
+2. cd Flexisaf_Task6
+   ```bash
+   cd Flexisaf_Task6
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Install dependencies:
+   ```bash
+   npm run dev
+
 
 ---
 
