@@ -1,86 +1,63 @@
-import { useState } from "react";
-import ProfileCard from "./components/ProfileCard";
-import Button from "./components/Button";
-import styled from "styled-components";
-
-// Container for the page
-const Container = styled.div`
-  font-family: "Segoe UI", sans-serif;
-  background-color: #f4f6f8;
-  min-height: 100vh;
-`;
-
-// Header
-const Header = styled.header`
-  background-color: #2c3e50;
-  color: white;
-  padding: 20px;
-  text-align: center;
-`;
-
-// Main content
-const Main = styled.main`
-  padding: 30px;
-  text-align: center;
-`;
-
-// Card container
-const CardsContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 25px;
-`;
-
-// Footer
-const Footer = styled.footer`
-  margin-top: 40px;
-  padding: 15px;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #777;
-`;
+import React, { useState } from "react";
+import {
+  Container,
+  Title,
+  Description,
+  CardContainer,
+  Card,
+  CardTitle,
+  CardText,
+  Button,
+  Footer
+} from "./components/StyledComponents";
 
 function App() {
-  const [show, setShow] = useState(true);
+  const [showTips, setShowTips] = useState(false);
 
   return (
     <Container>
-      <Header>
-        <h1>Styled Components Demo</h1>
-        <p>A React mini-app using styled-components</p>
-      </Header>
+      <Title>Styled Components in React</Title>
 
-      <Main>
-        <h2>About This Project</h2>
-        <p>
-          This mini-app demonstrates styling React components dynamically
-          using styled-components. Buttons and cards are reusable and styled
-          with props.
-        </p>
+      <Description>
+        This mini React application demonstrates how to style components using
+        the styled-components library. It shows how styles can be written
+        inside JavaScript and attached directly to React components.
+      </Description>
 
-        <Button primary onClick={() => setShow(!show)}>
-          {show ? "Hide Profiles" : "Show Profiles"}
-        </Button>
+      <Button onClick={() => setShowTips(!showTips)}>
+        {showTips ? "Hide Learning Tips" : "Show Learning Tips"}
+      </Button>
 
-        {show && (
-          <CardsContainer>
-            <ProfileCard
-              name="Mistura"
-              role="Frontend Developer"
-              description="Passionate about building clean and interactive UIs."
-            />
-            <ProfileCard
-              name="React Learner"
-              role="FlexiSAF Intern"
-              description="Currently learning styled-components in React."
-            />
-          </CardsContainer>
-        )}
-      </Main>
+      {showTips && (
+        <CardContainer>
+          <Card>
+            <CardTitle>Reusable Components</CardTitle>
+            <CardText>
+              Styled components can be reused across different parts of an
+              application, helping maintain consistent UI design.
+            </CardText>
+          </Card>
+
+          <Card>
+            <CardTitle>Dynamic Styling</CardTitle>
+            <CardText>
+              Styles can change dynamically using props, allowing components to
+              adapt based on application state or user interaction.
+            </CardText>
+          </Card>
+
+          <Card>
+            <CardTitle>Cleaner Code Structure</CardTitle>
+            <CardText>
+              Combining styling and logic in one place helps developers keep
+              projects organized and easier to maintain.
+            </CardText>
+          </Card>
+        </CardContainer>
+      )}
 
       <Footer>
-        Built with React + styled-components • Task 7 Submission
+        React + Styled Components Practice Project | FlexiSAF Frontend Task 7
       </Footer>
     </Container>
   );
