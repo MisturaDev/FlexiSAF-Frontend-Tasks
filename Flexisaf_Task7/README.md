@@ -1,16 +1,86 @@
-# React + Vite
+# FlexiSAF Frontend Task 7 – Styled Components in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project demonstrates how to use **Styled Components** in a React application.
 
-Currently, two official plugins are available:
+Styled Components is a popular library that allows developers to write CSS directly inside JavaScript files while building reusable UI components. It helps keep styling scoped to individual components and improves code organization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This task focuses on creating a simple React application styled using styled-components instead of traditional CSS files.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Learning Objectives
 
-## Expanding the ESLint configuration
+- Understand how **Styled Components** works in React
+- Learn how to create **reusable styled UI components**
+- Apply **component-based styling**
+- Improve **code structure and maintainability**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- React
+- JavaScript (ES6+)
+- Styled Components
+- Vite
+
+---
+
+## Project Features
+
+The application includes:
+
+- Styled layout using **styled-components**
+- Reusable styled components
+- Interactive button using **React state**
+- Responsive card layout
+- Clean UI structure
+
+---
+
+## Example Styled Components Used
+
+- Container
+- Title
+- Description
+- Button
+- Card
+- CardContainer
+- Footer
+
+These components demonstrate how styling can be attached directly to React components.
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MisturaDev/Flexisaf_Frontend.git
+
+2. cd Flexisaf_Task7
+   ```bash
+   cd Flexisaf_Task7
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Install dependencies:
+   ```bash
+   npm run dev
+
+---
+
+## Learning Outcome
+
+- Integrate styled-components into a React project
+
+- Create reusable styled UI elements
+
+- Combine styling and logic in React components
+
+- Build cleaner and more maintainable frontend code
+
+
