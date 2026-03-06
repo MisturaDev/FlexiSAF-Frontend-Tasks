@@ -30,7 +30,6 @@ This task demonstrates foundational understanding of React concepts by building 
    ```bash
    npm run dev
 
-
 ---
 
 ## Learning Outcome
