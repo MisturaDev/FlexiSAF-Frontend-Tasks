@@ -39,7 +39,7 @@ The application includes:
 
 ---
 
-## Example Styled Components Used
+## Styled Components Used
 
 - Container
 - Title
