@@ -1,4 +1,4 @@
-# FlexiSAF Frontend Task 8 – Reusable Components in React + TypeScript
+# Task 8 – Reusable Components in React & TypeScript
 
 ## Overview
 This project demonstrates how to build **reusable UI components** using **React** and **TypeScript**.  
