@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import Button from "./components/Button";
+import Input from "./components/Input";
+import Checkbox from "./components/Checkbox";
+import Form from "./components/Form";
+import DataCard from "./components/DataCard";
+import Table from "./components/Table";
 
-function App() {
-  const [count, setCount] = useState(0)
+const App: React.FC = () => {
+  const sampleData = [
+    { name: "Mistura", role: "Frontend Developer" },
+    { name: "React Learner", role: "FlexiSAF" },
+  ];
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div style={{ padding: "30px", fontFamily: "Arial, sans-serif" }}>
+      <h1>Task 8 – Reusable Components in React</h1>
+      <p>Practice building reusable UI components</p>
 
-export default App
+      <Form />
+      <br />
+
+      <Input placeholder="Enter something..." />
+      <br />
+
+      <Checkbox label="Accept Terms" />
+      <br />
+
+      <Button primary onClick={() => alert("Button Clicked!")}>
+        Click Me
+      </Button>
+
+      <h2>Data Cards</h2>
+      <div style={{ display: "flex", gap: "15px", marginBottom: "20px" }}>
+        {sampleData.map((item, idx) => (
+          <DataCard key={idx} name={item.name} role={item.role} />
+        ))}
+      </div>
+
+      <h2>Sample Table</h2>
+      <Table data={sampleData} />
+    </div>
+  );
+};
+
+export default App;
