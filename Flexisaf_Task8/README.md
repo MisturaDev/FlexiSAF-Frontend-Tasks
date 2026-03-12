@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
+# FlexiSAF Frontend Task 8 – Reusable Components in React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project demonstrates how to build **reusable UI components** using **React** and **TypeScript**.  
+The goal of this task is to practice creating multiple components that can be reused across a single page application, improving code maintainability and scalability.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Learning Objectives
+- Understand how to build **reusable React components**.
+- Apply **TypeScript** for type safety in components.
+- Learn to structure a React project with multiple components.
+- Improve **code organization and readability**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
+- React
+- TypeScript
+- JavaScript (ES6+)
+- Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Components Included
+1. **Button** – Reusable button component with primary styling.
+2. **Input** – Text input component.
+3. **Checkbox** – Reusable checkbox with label.
+4. **Form** – Reusable form component with submit functionality.
+5. **DataCard** – Displays user information in a card format.
+6. **Table** – Displays data in a table layout.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Features
+- All components are **reusable** and type-safe.
+- Components styled simply with inline styles (easy to modify or replace with styled-components if needed)
+- Interactive **Form** and **Button** demonstrate component interactivity.
+- **DataCard** and **Table** demonstrate data display using reusable components.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MisturaDev/Flexisaf_Frontend.git
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+2. Navigate to Task8 Folder:
+   ```bash
+   cd Flexisaf_Task8
+
+3. cd Flexisaf_Task8
+   ```bash
+   npm install
+
+4. Run the development server:
+   ```bash
+   npm run dev
+
+
+## Learning Outcome
+
+- Build type-safe reusable components using React & TypeScript
+
+- Structure a project with multiple components
+
+- Combine interactivity and UI with reusable components
+
+- Create clean and maintainable frontend code
+
+  
